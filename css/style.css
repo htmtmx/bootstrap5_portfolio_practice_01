@@ -30,3 +30,30 @@ header .menu .c3{ background: #03045E; }
 header .menu .c1:hover{ background: #00B4D8; }
 header .menu .c2:hover{ background: #00B4D8; }
 header .menu .c3:hover{ background: #00B4D8; }
+
+/* M A I N */
+/* Portfolio */
+.portfolio{
+  border-top: 5px solid #00B4D8;
+  background: #fff;
+}
+
+.portfolio .title{
+  color: #00B4D8;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.portfolio .gallery .container-img{
+  max-height: 180px;
+  overflow: hidden;
+}
+
+.portfolio .gallery .container-img a{
+  background: #00B4D8;
+  display: inline-block;
+}
+
+.portfolio .gallery .container-img:hover img{
+  opacity: 0.5;
+}
