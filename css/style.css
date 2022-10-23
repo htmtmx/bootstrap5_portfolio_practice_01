@@ -4,9 +4,13 @@ body{
 }
 
 header .nav{
-  min-height: 80px;
+  min-height: 100px;
   overflow: hidden;
   background: #363636;
+}
+
+header .menu{
+  min-height: 80px;
 }
 
 header .logo h2,
