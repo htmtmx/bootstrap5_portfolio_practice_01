@@ -59,6 +59,7 @@ header .menu .c3:hover{ background: #00B4D8; }
   opacity: 0.5;
 }
 
+
 @media screen and (max-width: 768px){
 
 }
@@ -182,3 +183,52 @@ header .menu .c3:hover{ background: #00B4D8; }
 .contact .form .button_send:hover{
   background: #00B4D8;
 }
+
+/* FOOTER */
+.social-networks{
+  background: #363636;
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.social-networks .icon{
+  width: 75px;
+  height: 75px;
+  color: #fff;
+  background: #fff;
+  display: inline-block;
+  margin: 0px 20px;
+  text-decoration: none;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+.social-networks .icon i{
+  font-size: 45px;
+  line-height: 100px;
+}
+
+.social-networks .icon:hover{
+  background: #fff;
+  color: #363636;
+}
+
+.social-networks .git-hub{
+  color: #171515;
+}
+.social-networks .facebook{
+  color: #3b5998;
+}
+.social-networks .linkedin{
+  color: #0e76a8;
+}
+.social-networks .whatsapp{
+  color: #25D366;
+}
+.social-networks .twitter{
+  color: #1da1f2;
+}
+
+
+
+
