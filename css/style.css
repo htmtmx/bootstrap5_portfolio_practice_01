@@ -99,3 +99,35 @@ header .menu .c3:hover{ background: #00B4D8; }
 .modal-dialog{
   max-width: 1000px;
 }
+
+/* ABOUT */
+.about .photo .name-profile{
+  color: #363636;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.about .info .title{
+  color: #00B4D8;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.about .info .resume{
+  letter-spacing: 1px;
+}
+
+.about .info .label{
+  color: #00B4D8;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about .info .progress{
+  background: #363636;
+}
+.about .info .progress .progress-bar{ background: #00B4D8; }
