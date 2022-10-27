@@ -15,7 +15,7 @@ header .menu{
 
 header .logo h2,
 header .logo p{
-  font-size: 16px;
+  font-size: 20px;
   display: inline-block;
 }
 
@@ -39,7 +39,8 @@ header .menu .c3:hover{ background: #00B4D8; }
 }
 
 .portfolio .title{
-  color: #00B4D8;
+  /* color: #00B4D8; */
+  color: #363636;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
@@ -101,15 +102,20 @@ header .menu .c3:hover{ background: #00B4D8; }
 }
 
 /* ABOUT */
+.about{
+  background: #fff;
+  border-top: 5px solid #00B4D8;
+}
 .about .photo .name-profile{
   color: #363636;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 22px;
   letter-spacing: 2px;
 }
 
 .about .info .title{
-  color: #00B4D8;
+  /* color: #00B4D8; */
+  color: #363636;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 40px;
@@ -131,3 +137,48 @@ header .menu .c3:hover{ background: #00B4D8; }
   background: #363636;
 }
 .about .info .progress .progress-bar{ background: #00B4D8; }
+
+/* CONTACT */
+.contact {
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.contact .title{
+  /* color: #00B4D8; */
+  color: #363636;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact .form input[type="text"],
+.contact .form input[type="email"],
+.contact .form textarea{
+  padding: 15px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact .form textarea{
+  height: 150px;
+  min-height: 150px;
+  max-height: 250px;
+}
+
+.contact .form .button_send{
+  background: #363636;
+  border: none;
+  padding: 7px 30px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  width: auto;
+  border-radius: 5px;
+}
+
+.contact .form .button_send:hover{
+  background: #00B4D8;
+}
